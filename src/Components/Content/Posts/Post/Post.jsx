@@ -8,7 +8,9 @@ const Post = (props) => {
 
             <img src={"https://vk-wiki.ru/wp-content/uploads/2019/06/user-1.png"} alt={""}/>
             {props.message}
-
+            <div>
+            <spin>like</spin> {props.likePost}
+                </div>
         </div>
 
 
