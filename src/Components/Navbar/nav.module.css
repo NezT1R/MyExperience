@@ -4,9 +4,10 @@
 }
 
 .item {
-    color: darkmagenta;
+    color: white;
+    text-decoration: none;
 }
 
-.item.active{
-    color: dodgerblue;
+a.active {
+    color: gold;
 }
